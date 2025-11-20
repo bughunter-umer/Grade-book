@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f172a;
+    color: #f1f5f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e293b;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+section.container {
+    padding: 20px 40px;
+}
+
+h2 {
+    color: #facc15;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-right: 15px;
+}
+
+input {
+    padding: 5px;
+    margin: 5px 0;
+    width: 80px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 10px 0;
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e293b;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #334155;
+}
+
+table th {
+    background-color: #334155;
+    color: #fcd34d;
+}
+
+table tr:nth-child(even) {
+    background-color: #0f172a;
+}
+
+table tr:nth-child(odd) {
+    background-color: #1e293b;
+}

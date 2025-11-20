@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Web Gradebook</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Interactive Web Gradebook</h1>
+</header>
+
+<section class="container">
+    <h2>Enter Students and Marks</h2>
+
+    <div id="inputArea">
+        <label>Number of Students: <input type="number" id="numStudents" min="1" value="2"></label>
+        <label>Number of Subjects: <input type="number" id="numSubjects" min="1" value="2"></label>
+        <button onclick="createInputTable()">Create Input Table</button>
+    </div>
+
+    <div id="marksInput" style="margin-top:20px;"></div>
+
+    <button id="calculateBtn" style="display:none;" onclick="calculateResults()">Calculate Results</button>
+
+    <h2>Gradebook Table</h2>
+    <table id="gradebookTable">
+        <thead>
+            <tr id="tableHeader"></tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
