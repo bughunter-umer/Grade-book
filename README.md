@@ -81,8 +81,4 @@ Interactive-Gradebook/
 
 ---
 
-This README is **detailed and professional**, perfect to include in your GitHub repository.
 
-If you want, I can also **write a version for the Python + Flask + NumPy version** so it looks more like a **real web application project** for your portfolio.
-
-Do you want me to do that too?
